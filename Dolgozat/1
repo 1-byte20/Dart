@@ -1,0 +1,76 @@
+import 'dart.io';
+void main(){
+  //1.feladat
+  print("Kérek egy számot!");
+  int a = int.parse(stdin.readLineSync()!);
+  print("Kérek egy másik számot!");
+  int b = int.parse(stdin.readLineSync()!);
+
+  if(a>b){
+    print("A legkisebb szám: ${b}");
+    print("A legnagyobb szám: ${a}");
+  }
+  else if{
+    print("A legkisebb szám: ${a}");
+    print("A legnagyobb szám: ${b}");
+  }
+
+  if(a == b){
+    print("Az alakzat : Négyzet");
+  }
+  else{
+    print("Az alakzat : Téglalap");
+  }
+
+  print("Az alakzat kerülete: ${a*b}");
+  print("Az alakzat területe: ${2*(a+b)}");
+
+  //2.feladat
+  print("Kérek egy számot!");
+  int sz1 = int.parse(stdin.readLineSync()!);
+  print("Kérek egy másik számot!");
+  int sz2 = int.parse(stdin.readLineSync()!);
+  print("Kérek egy harmadik számot!");
+  int sz3 = int.parse(stdin.readLineSync()!);
+
+  if(sz1+sz2>sz3 || sz1+sz3>sz2 || sz2+sz3>sz1){
+    print("A háromszög nem alkotható meg!");
+  }
+  else{
+    print("A háromszög megalkotható!");
+  }
+  
+ // 3.feladat
+ print("Kérek egy három legalább három jegyű számot!");
+ int c;
+ do{
+  int c = int.parse(stdin.readLineSync()!);
+
+  if(C < 100){
+    print("A szám túl kicsi. Kérlek probáld újra!")
+  }
+ }while(C >= 100)
+
+  int d=1;
+  for(int i=2; i<10000000; i++){
+    if{d * d = c}{
+      print("A szám négyzetszám!")
+    }
+    else{
+      print("A szám nem négyzetszám")
+    }
+
+    if(c%i=)
+
+  }
+
+  //4.feladat
+  print("Kérek egy számot!");
+  int e = int.parse(stdin.readLineSync()!);
+
+  if(e == 0){
+    print("Hiba: Nulla bevitel")
+  }
+
+
+}
