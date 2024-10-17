@@ -1,0 +1,42 @@
+import 'dart:io';
+import 'dart:math';
+
+
+void main(){
+  print("Kérem a nevét");
+  getname();
+  welcome('jhon');
+  
+
+
+
+
+  //4.feladat
+  print("Kérek egy számot");
+  int? szam3 = int.parse(stdin.readLineSync()!);
+}
+//1.feladat
+void getname(){
+  String? name = stdin.readLineSync();
+}
+
+void welcome(name){
+  print("Hello ${name}");
+}
+
+//3.feladat
+void getPower(){
+  print("Kérek egy számot");
+  int? szam = int.parse(stdin.readLineSync()!);
+
+  print("Kérek egy másik számot");
+  int? szam2 = int.parse(stdin.readLineSync()!);
+
+  if (szam.isNegative && szam2.isOdd ){
+    print("Imaginary number");
+  }
+  else{
+    print("A negyzetszám: ${pow(szam, szam2)}");
+  }
+}
+
